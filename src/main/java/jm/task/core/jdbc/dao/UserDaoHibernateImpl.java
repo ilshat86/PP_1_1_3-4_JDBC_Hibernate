@@ -1,13 +1,15 @@
 package jm.task.core.jdbc.dao;
 
 import jm.task.core.jdbc.model.User;
+import jm.task.core.jdbc.util.DbConnectionManager;
 
+import java.sql.Connection;
 import java.util.List;
 
 public class UserDaoHibernateImpl implements UserDao {
-    public UserDaoHibernateImpl() {
 
-    }
+    public UserDaoHibernateImpl() {
+     }
 
 
     @Override
